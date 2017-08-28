@@ -1,0 +1,10 @@
+@import "_mixins.scss";
+
+// Fonts
+
+// Lato
+@include font-face('latoregular', 'lato-regular');
+
+// Titillium
+@include font-face('titillium_webblack', 'titilliumweb-black');
+@include font-face('titillium_websemibold', 'titilliumweb-semibold');

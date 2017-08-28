@@ -1,0 +1,15 @@
+// Grid
+.container {
+  margin: 0 auto;
+  width: 100%;
+  width: 750px;
+  padding-right: 30px;
+  padding-left: 30px;
+  @extend .clearfix;
+  @media (min-width: 1440px) {
+    width: 1308px;
+    padding-right: 26px;
+    padding-left: 26px;
+  }
+}
+// Grid (END)
