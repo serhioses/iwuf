@@ -6,7 +6,8 @@
 $fonts: (
   "lato": "latoregular, Helvetica, Arial, sans-serif",
   "titillium": "titillium_webblack, Helvetica, Arial, sans-serif",
-  "titillium_semibold": "titillium_websemibold, Helvetica, Arial, sans-serif"
+  "titillium_semibold": "titillium_websemibold, Helvetica, Arial, sans-serif",
+  "titillium_bold": "titillium_webbold, Helvetica, Arial, sans-serif"
 );
 
 $fontSizes: (
@@ -24,7 +25,8 @@ $colors: (
   "white": #fff,
   "black": #000,
   "darkGray": #333,
-  "red": #bf0000,
-  "orange": #ffc425,
+  "red": #e2261c,
+  "pastelRed": #c7373b,
+  "orange": #e2261c,
   "lightBlue": #f5f6fa
 );

@@ -31,7 +31,7 @@ gulp.task('styles', function () {
 });
 
 gulp.task('minifycss', function () {
-  return gulp.src(paths.cssDist + '/style.css')
+  return gulp.src([paths.cssDist + '/style.css', paths.cssDev + '/*.css'])
     .pipe(cssmin())
     .pipe(rename({suffix: '.min'}))
     .pipe(gulp.dest(paths.cssDist));

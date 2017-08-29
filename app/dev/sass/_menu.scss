@@ -1,10 +1,11 @@
 // Menu
 .menu-trigger {
-  margin-top: 37px;
   width: 57px;
   height: 48px;
   float: right;
-  position: relative;
+  position: absolute;
+  top: 37px;
+  right: 30px;
   z-index: 11;
   &:before, &:after, &__center-line {
     content: "";
@@ -185,7 +186,6 @@
       margin-bottom: 0;
       line-height: to-rem(60);
       position: relative;
-      color: #444;
       &--text {
         margin-right: 44px;
         &:before {
@@ -194,7 +194,7 @@
           border-radius: 100%;
           width: 8px;
           height: 8px;
-          background-color: get-color("red");
+          background-color: #bf0000;
           position: absolute;
           top: 50%;
           right: -24px;

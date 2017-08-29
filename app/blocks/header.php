@@ -2,7 +2,7 @@
   <div class="container">
     <div class="header__inner clearfix">
       <a class="logo" href="/">
-        <img src="app/dist/images/logo.png" alt="IWUF" />
+        <img src="dist/images/logo.jpg" alt="IWUF" />
       </a>
       <div class="side-menu" data-eui-bundle-outside>
         <div class="side-menu__inner">
@@ -46,22 +46,6 @@
               </div>
             </div>
           </div>
-        </div>
-        <div class="socials socials--top">
-          <a class="socials__item socials__item--1" href="#">
-            <svg xmlns="http://www.w3.org/2000/svg" width="23" height="20" viewBox="0 0 23 20" fill="currentColor">
-              <path d="M15.6,6.9c-1.9,0.1-3.6,0.7-5,2c-1.4,1.3-2,3-1.9,5.1c-0.8-0.1-1.5-0.2-2.2-0.3c-0.2,0-0.5,0-0.7,0.1
-                c-0.7,0.4-1.3,0.8-2.1,1.3c0.1-0.6,0.2-1.2,0.4-1.7c0.1-0.4,0.1-0.6-0.3-0.9c-2.3-1.7-3.3-4.1-2.6-6.7c0.7-2.4,2.4-3.8,4.6-4.5
-                c3.1-1,6.6,0,8.5,2.5C15.1,4.7,15.5,5.7,15.6,6.9L15.6,6.9z M6.6,6.1c0-0.5-0.4-0.9-0.9-0.9c-0.5,0-0.9,0.4-0.9,0.8
-                c0,0.5,0.4,0.9,0.9,0.9C6.2,7,6.6,6.6,6.6,6.1L6.6,6.1z M11.3,5.2c-0.5,0-0.9,0.4-0.9,0.9c0,0.5,0.4,0.9,0.9,0.9
-                c0.5,0,0.9-0.4,0.9-0.9C12.2,5.6,11.8,5.2,11.3,5.2z"/>
-              <path d="M20,19.1c-0.6-0.3-1.2-0.7-1.8-0.8c-0.6-0.1-1.2,0.3-1.9,0.3c-1.9,0.2-3.6-0.3-5-1.6c-2.7-2.5-2.3-6.3,0.8-8.3
-                c2.8-1.8,6.8-1.2,8.8,1.3c1.7,2.2,1.5,5.1-0.6,6.9c-0.6,0.5-0.8,1-0.4,1.7C19.9,18.7,19.9,18.9,20,19.1L20,19.1z M12.9,12.3
-                c0.4,0,0.7-0.3,0.7-0.7c0-0.4-0.3-0.8-0.7-0.8c-0.4,0-0.7,0.3-0.7,0.8C12.2,11.9,12.6,12.3,12.9,12.3L12.9,12.3z M17.5,10.8
-                c-0.4,0-0.7,0.3-0.7,0.7c0,0.4,0.3,0.8,0.7,0.8c0.4,0,0.7-0.3,0.7-0.7C18.2,11.1,17.9,10.8,17.5,10.8z"/>
-            </svg>
-
-          </a>
         </div>
       </div>
       <div class="overlay overlay--menu" data-eui-bundle-id="menu" data-eui-bundle-action="close" data-eui-bundle data-eui-bundle-outside></div>
