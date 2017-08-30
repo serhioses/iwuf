@@ -5,6 +5,10 @@
   position: relative;
   &__inner {
     height: 100%;
+    overflow: hidden;
+    &.slick-initialized {
+      overflow: visible;
+    }
     .slick-list, .slick-track {
       height: 100%;
     }

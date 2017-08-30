@@ -89,6 +89,12 @@
   &--light {
     color: get-color("white");
   }
+  &--dark {
+    color: get-color("darkGray");
+  }
+  &--secondary {
+    display: none;
+  }
   &__pages {
     padding-bottom: 16px;
   }
@@ -172,6 +178,10 @@
   }
 
   .menu {
+    &--secondary {
+      display: table;
+      margin-left: auto;
+    }
     &__pages {
       margin-right: 30px;
       padding-bottom: 0;

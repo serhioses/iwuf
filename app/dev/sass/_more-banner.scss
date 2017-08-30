@@ -1,0 +1,37 @@
+// More banner
+.more-slide {
+  margin-bottom: 78px;
+  height: 472px;
+  background-image: url("../images/more-slide.jpg");
+  &__inner {
+    height: 100%;
+  }
+  &__content {
+    width: 100%;
+    height: 100%;
+  }
+  &__text {
+    padding: 0 24px;
+    color: get-color("white");
+    line-height: to-rem(60);
+    font-family: unquote(get-font("titillium"));
+    font-size: to-rem(40);
+    text-align: center;
+    text-transform: uppercase;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  &__link {
+    color: get-color("orange");
+  }
+}
+
+@media (min-width: 1440px) {
+  .more-slide {
+    &__text {
+      padding: 0 240px;
+    }
+  }
+}
+// More banner (END)

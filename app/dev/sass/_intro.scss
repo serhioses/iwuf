@@ -1,0 +1,37 @@
+// Intro
+.intro {
+  margin-bottom: 110px;
+  &__image {
+    margin-bottom: 50px;
+    text-align: center;
+  }
+  &__text {
+    margin-bottom: 60px;
+  }
+  &__more {
+    text-align: center;
+  }
+}
+
+@media (min-width: 1440px) {
+  .intro {
+    margin-top: 110px;
+    &__image {
+      width: 376px;
+      float: left;
+      img {
+        margin-top: -20px;
+      }
+    }
+    &__content {
+      padding-left: 420px;
+    }
+    &__text {
+      margin-bottom: 32px;
+    }
+    &__more {
+      text-align: left;
+    }
+  }
+}
+// Intro (END)

@@ -1,0 +1,22 @@
+// Default text
+.default-text {
+  *:last-child {
+    margin-bottom: 0;
+  }
+  p {
+    margin-bottom: 50px;
+    color: get-color("darkGray");
+    line-height: to-rem(40);
+    font-size: to-rem(30);
+  }
+}
+
+@media (min-width: 1440px) {
+  .default-text {
+    p {
+      line-height: to-rem(35);
+      font-size: to-rem(25);
+    }
+  }
+}
+// Default text (END)

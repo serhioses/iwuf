@@ -1,0 +1,47 @@
+// Buttons
+.button {
+  display: inline-block;
+  vertical-align: top;
+  outline: 0;
+  border: 0;
+  border-radius: 0;
+  height: 48px;
+  padding: 0 40px;
+  background: none;
+  line-height: 46px;
+  font-size: 0;
+  text-align: center;
+  text-transform: uppercase;
+  position: relative;
+  z-index: 1;
+  cursor: pointer;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  user-select: none;
+  &:before {
+    content: "";
+    width: 55px;
+    position: absolute;
+    top: -4px;
+    bottom: -4px;
+    left: -4px;
+  }
+  &--orange {
+    border: 1px solid get-color("orange");
+    background-color: get-color("white");
+    color: get-color("orange");
+    &:before {
+      border: 3px solid get-color("orange");
+      border-right: 0;
+    }
+  }
+  &__text {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: get-font-size("medium");
+  }
+  &__icon {
+    margin-left: 10px;
+  }
+}
+// Buttons (END)

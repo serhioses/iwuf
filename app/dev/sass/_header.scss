@@ -12,6 +12,9 @@
   top: 0;
   left: 30px;
   z-index: 3;
+  &--secondary {
+    display: none;
+  }
 }
 
 @media (min-width: 1440px) {
@@ -35,6 +38,10 @@
     float: left;
     position: relative;
     left: auto;
+    &--secondary {
+      display: block;
+      width: 97px;
+    }
   }
 }
 // Header (END)

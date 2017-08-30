@@ -58,7 +58,7 @@
     }
     &__nav-title {
       margin-bottom: 20px;
-      font-family: unquote("titillium");
+      font-family: unquote(get-font("titillium_bold"));
       font-weight: bold;
       text-transform: uppercase;
     }
